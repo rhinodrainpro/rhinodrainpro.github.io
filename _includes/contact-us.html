@@ -103,28 +103,27 @@ style="background-color: #fff; padding: 60px 0 0"
         <section class="widget">
           <!-- sec-title -->
           <div class="sec-title">
-            <h2 class="sec-title__title">working hours</h2>
+            <h2 class="sec-title__title">Contact details</h2>
             <span class="sec-title__divider"></span>
           </div>
           <!-- End / sec-title -->
 
           <p class="mb-30">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            ad sunt est. Eaque odit, et nihil saepe. Eveniet autem, sit
-            quisquam iusto soluta assumenda impedit possimus nesciunt fugiat
-            aut in.
+            Honest, reliable and experienced. Your local expert for all of your drainage needs.
           </p>
 
           <!--  -->
           <div>
             <div class="widget-contact__item">
               <span class="widget-contact__title">Tel:</span>
-              <p class="widget-contact__text">{{ site.telephone }}</p>
+              <p class="widget-contact__text">
+                <a href="tel:{{ site.telephone }}">{{ site.telephone }}</a>
+              </p>
             </div>
             <div class="widget-contact__item">
               <span class="widget-contact__title">email:</span>
               <p class="widget-contact__text">
-                <a href="#">{{ site.email }}</a>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
               </p>
             </div>
             <div class="widget-contact__item">
