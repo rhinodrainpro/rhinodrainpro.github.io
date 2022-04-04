@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {%- include head.html -%}
+  </head>
+
+  <body>
+    <!-- preload -->
+    <div class="preload" id="preload">
+      <div class="cssload-spin-box"></div>
+    </div>
+    <!-- End / preload -->
+
+    <div class="page-wrap">
+      {%- include header.html -%} 
+      
+      {{ content }} 
+      
+      {%- include footer.html -%}
+    </div>
+
+    {%- include scripts.html -%}
+    
+  </body>
+</html>
