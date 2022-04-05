@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
     {%- include head.html -%}
   </head>
@@ -12,9 +12,12 @@
     <!-- End / preload -->
 
     <div class="page-wrap">
+
       {%- include header.html -%} 
-      
-      {{ content }} 
+
+      <div class="md-content">
+        {{ content }} 
+      </div>
       
       {%- include footer.html -%}
     </div>
