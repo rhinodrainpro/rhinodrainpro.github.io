@@ -261,7 +261,8 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #f0542c;
+    /* color: #f0542c; */
+    color: #000;
 }
 
 a:focus {
@@ -270,12 +271,14 @@ a:focus {
 
 ::-moz-selection {
     color: #fff;
-    background-color: #f0542c;
+    /* background-color: #f0542c; */
+    background-color: #000;
 }
 
 ::selection {
     color: #fff;
-    background-color: #f0542c;
+    /* background-color: #f0542c; */
+    background-color: #000;
 }
 
 .md-section {
@@ -358,7 +361,8 @@ textarea:-ms-input-placeholder, select:-ms-input-placeholder {
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]):focus,
 textarea:focus, select:focus {
-    border-color: #f0542c;
+    /* border-color: #f0542c; */
+    border-color: #000;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"])[disabled],
@@ -494,11 +498,13 @@ mark, .mark {
 }
 
 .btn-primary {
-    background-color: #f0542c;
+    /*background-color: #f0542c;*/
+    background-color: #222;
 }
 
 .btn-primary:hover {
-    background-color: #da390f;
+    /*background-color: #da390f;*/
+    background-color: #000000;
 }
 
 .btn-danger {
@@ -679,7 +685,8 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .cta-02 {
-    background-color: #f0542c;
+    /*background-color: #f0542c;*/
+    background-color: #222;
     padding: 20px 0;
 }
 
@@ -1553,7 +1560,8 @@ mark, .mark {
 
 .quote-02 {
     max-width: 300px;
-    background-color: #f0542c;
+    /*background-color: #f0542c;*/
+    background-color: #222;
     border: 5px solid #fff;
     padding: 20px;
     margin: 0;
@@ -1607,7 +1615,8 @@ mark, .mark {
 }
 
 .quote__style-02 {
-    border-left: 2px solid #f0542c;
+    /*border-left: 2px solid #f0542c;*/
+    border-left: 2px solid #222;
     background-color: transparent;
     padding: 0 10px;
 }
@@ -1681,6 +1690,9 @@ mark, .mark {
     margin-bottom: 40px;
     background-color: #fff;
     padding: 15px;
+    height: -webkit-calc(100% - 40px);
+    height: -moz-calc(100% - 40px);
+    height: calc(100% - 40px);
 }
 
 .services__title {
@@ -1690,7 +1702,8 @@ mark, .mark {
 }
 
 .services__title:hover {
-    color: #f0542c;
+    /*color: #f0542c;*/
+    color: #000000;
 }
 
 .services__img {
@@ -2294,9 +2307,9 @@ mark, .mark {
     text-align: center;
     color: #fff;
     border-radius: 50%;
+    /* background-color: #f0542c; */
     background-color: #222;
     margin: 5px;
-    background-color: #f0542c;
     color: #fff;
 }
 
@@ -2389,7 +2402,7 @@ mark, .mark {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(240, 84, 44, .9);
+    background-color: rgba(0, 0, 0, 0.9);
     visibility: hidden;
     opacity: 0;
     transition: all .3s ease;
@@ -2433,14 +2446,16 @@ mark, .mark {
 }
 
 .sec-title__title span {
-    color: #f0542c;
+    /*background-color: #f0542c;*/
+    color: #444;
 }
 
 .sec-title__divider {
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #f0542c;
+    /*background-color: #f0542c;*/
+    background-color: #444;
 }
 
 .sec-title__lg-title .sec-title__title {
@@ -2495,7 +2510,8 @@ mark, .mark {
 
 .widget-contact__title {
     text-transform: capitalize;
-    color: #f0542c;
+    /*color: #f0542c;*/
+    color: #222;
 }
 
 .widget-contact__text {
@@ -3217,7 +3233,8 @@ mark, .mark {
     }
 
     .raising-nav li:hover > a {
-        color: #f0542c;
+        /*color: #f0542c;*/
+        color: #ffffff;
     }
 
     .raising-nav .raising-menu .sub-menu {
@@ -3280,12 +3297,14 @@ mark, .mark {
 
     .raising-nav .raising-menu .sub-menu .current-menu-parent > a,
     .raising-nav .raising-menu .sub-menu .current-menu-item > a {
-        color: #f0542c;
+        /*color: #f0542c;*/
+        color: #fff;
     }
 
     .raising-nav .raising-menu .current-menu-parent > a,
     .raising-nav .raising-menu .current-menu-item > a {
-        color: #f0542c;
+        /*color: #f0542c;*/
+        color: #fff;
     }
 
     .raising-nav .raising-menu .sub-menu {
@@ -3427,7 +3446,8 @@ mark, .mark {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #f0542c;
+    /* background-color: #f0542c; */
+    background-color: #fff;
     margin: 0 auto;
     visibility: hidden;
     opacity: 0;
@@ -3441,7 +3461,8 @@ mark, .mark {
 }
 
 .raising-nav li.current a {
-    color: #f0542c;
+    /* color: #f0542c; */
+    color: #fff;
 }
 
 .raising-menu.active ~ .navbar-toggle span:nth-child(1) {
@@ -3506,11 +3527,11 @@ mark, .mark {
     line-height: 50px;
     font-size: 20px;
     text-align: center;
-    background-color: rgba(240, 84, 44, .6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .hero .swiper-button-custom > div:hover {
-    background-color: #f0542c;
+    background-color: #000000;
     color: #fff;
 }
 
