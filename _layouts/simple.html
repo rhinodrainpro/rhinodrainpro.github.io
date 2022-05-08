@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" style="height: 100%;">
+  <head>
+    {%- include head.html -%}
+  </head>
+
+  <body style="height: 100%;">
+    <!-- preload -->
+    <div class="preload" id="preload">
+      <div class="cssload-spin-box"></div>
+    </div>
+    <!-- End / preload -->
+
+    <div class="page-wrap" style="height: 100%;">
+
+      <div class="md-content" style="height: 100%;">
+        {{ content }} 
+      </div>
+      
+    </div>
+
+    {%- include scripts.html -%}
+    
+  </body>
+</html>

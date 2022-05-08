@@ -22,7 +22,7 @@
         <div class="main-content">
           <div class="row">
             <div class="col-lg-6">
-              <form class="contact-form" action="{{ site.contactusurl }}">
+              <form class="contact-form" action="{{ site.contactusformurl }}">
                 <!-- form-item -->
                 <input
                   type="checkbox"
@@ -34,12 +34,29 @@
                 <!-- End / form-item -->
 
                 <!-- form-item -->
+                <input
+                  type="hidden"
+                  name="_redirect"
+                  value="{{ site.url }}/thanks"
+                />
+                <!-- End / form-item -->
+
+                <!-- form-item -->
+                <input
+                  type="hidden"
+                  name="_error"
+                  value="{{ site.url }}/error"
+                />
+                <!-- End / form-item -->
+
+                <!-- form-item -->
                 <div class="form-item">
                   <input
                     class="form-control"
                     type="text"
-                    name="input"
+                    name="name"
                     placeholder="name"
+                    required=""
                   />
                 </div>
                 <!-- End / form-item -->
@@ -49,8 +66,9 @@
                   <input
                     class="form-control"
                     type="text"
-                    name="input"
+                    name="email"
                     placeholder="email"
+                    required=""
                   />
                 </div>
                 <!-- End / form-item -->
@@ -60,19 +78,8 @@
                   <input
                     class="form-control"
                     type="text"
-                    name="input"
+                    name="phone"
                     placeholder="phone"
-                  />
-                </div>
-                <!-- End / form-item -->
-
-                <!-- form-item -->
-                <div class="form-item">
-                  <input
-                    class="form-control"
-                    type="text"
-                    name="input"
-                    placeholder="subject"
                   />
                 </div>
                 <!-- End / form-item -->
@@ -83,12 +90,13 @@
                     name="message"
                     placeholder="Message"
                     style="height: 150px"
+                    required=""
                   ></textarea>
                 </div>
                 <!-- End / form-item -->
 
                 <button class="btn btn-primary btn-round mb-30" type="submit">
-                  Send message
+                  Send
                 </button>
               </form>
             </div>
