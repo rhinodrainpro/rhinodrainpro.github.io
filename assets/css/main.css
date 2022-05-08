@@ -1693,12 +1693,15 @@ mark, .mark {
     height: -webkit-calc(100% - 40px);
     height: -moz-calc(100% - 40px);
     height: calc(100% - 40px);
+    display: flex;
+    flex-flow: column;
 }
 
 .services__title {
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0 7px;
+    flex: 0 1 auto;
 }
 
 .services__title:hover {
@@ -1708,12 +1711,17 @@ mark, .mark {
 
 .services__img {
     margin-bottom: 15px;
+    flex: 0 1 auto;
 }
 
 .services__desc {
     margin-bottom: 30px;
+    flex: 1 1 auto;
 }
 
+.services a.btn {
+    width: 100%;
+}
 
 /* 15. socialicon
 --------------------------------------------------------------------------------*/
