@@ -1,11 +1,37 @@
 title: Rhino Drain Pro
+
 email: info@rhinodrainpro.co.nz
+
 telephone: 027 220 9608
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rhinodrainpro.co.nz" # the base hostname & protocol for your site, e.g. http://example.com
+
+description: >-
+  Rhino Drain Pro has stemmed from our big sister company Rhino Plumbing and 
+  Drainage. We are a small family owned company with a big name. Our team are 
+  highly trained professionals covering the Auckland region where no job is too 
+  big or small. We are here to help our customers when they need us and find 
+  the source of the problem and offer a solution to fix it permanently.
+
+baseurl: ""
+
+url: "https://rhinodrainpro.co.nz"
 
 contactusformurl: https://submit-form.com/VRw0YIqd
+
+tagline: Auckland drainage experts
+
+logo: /assets/img/logo.png
+
+social:
+  name: Rhino Drain Pro
+  links:
+    - https://www.facebook.com/rhinoplumbingltd
+
+google_site_verification: 
+
+locale: en_NZ
+
+google_analytics: G-P55QH9CFBR
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
