@@ -499,7 +499,7 @@ mark, .mark {
 
 .btn-primary {
     /*background-color: #f0542c;*/
-    background-color: #222;
+    background-color: #444;
 }
 
 .btn-primary:hover {
@@ -651,7 +651,7 @@ mark, .mark {
 .copyright-01 {
     position: relative;
     padding: 20px 0;
-    background-color: #111;
+    background-color: #444;
     text-align: center;
     overflow: hidden;
 }
@@ -686,7 +686,7 @@ mark, .mark {
 
 .cta-02 {
     /*background-color: #f0542c;*/
-    background-color: #222;
+    background-color: #444;
     padding: 20px 0;
 }
 
