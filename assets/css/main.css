@@ -783,7 +783,7 @@ mark, .mark {
 }
 
 .gallery__overlay {
-    background-color: rgba(240, 84, 44, .8);
+    background-color: rgb(68, 68, 68, .8);
     width: 0;
     right: 0;
     bottom: 0;
@@ -3243,7 +3243,7 @@ mark, .mark {
 
     .raising-nav li:hover > a {
         /*color: #f0542c;*/
-        color: #ffffff;
+        color: #000;
     }
 
     .raising-nav .raising-menu .sub-menu {
@@ -3456,7 +3456,7 @@ mark, .mark {
     width: 0;
     height: 2px;
     /* background-color: #f0542c; */
-    background-color: #fff;
+    background-color: #000;
     margin: 0 auto;
     visibility: hidden;
     opacity: 0;
@@ -3471,7 +3471,7 @@ mark, .mark {
 
 .raising-nav li.current a {
     /* color: #f0542c; */
-    color: #fff;
+    color: #000;
 }
 
 .raising-menu.active ~ .navbar-toggle span:nth-child(1) {
@@ -3580,6 +3580,7 @@ mark, .mark {
     color: #fff;
     margin-top: 0;
     margin-bottom: 20px;
+    text-shadow: 1px 1px #444;
 }
 
 @media (min-width: 320px) {
@@ -3598,6 +3599,7 @@ mark, .mark {
     font-size: 16px;
     color: #fff;
     margin-bottom: 20px;
+    text-shadow: 1px 1px #444;
 }
 
 @media (min-width: 320px) {
